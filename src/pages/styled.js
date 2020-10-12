@@ -237,5 +237,4 @@ export const ThirdTextContainer = styled.div`
             font-size: 14px
         }
     }
-
 `
