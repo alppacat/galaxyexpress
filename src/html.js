@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body style={{margin: 0, overflow: 'hidden'}} >
+      <body style={{margin: 0, overflowX: 'hidden'}} >
         {props.preBodyComponents}
         <div
           key={`body`}
