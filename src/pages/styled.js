@@ -6,7 +6,7 @@ export const MainContainer = styled.div`
     flex-direction: column;
     background-color: black;
     position: relative;
-    z-index: 5;
+    z-index: 4;
     width: 100vw;
     height: 100vh;
     font-family: raleway;
@@ -23,7 +23,7 @@ export const ParticlesContainer = styled.div`
     width: 100vw;
     height: 100vh;
     position: absolute;
-    z-index: 6;
+    z-index: 5;
 
     div#tsparticles{
         width: 100vw;
@@ -33,8 +33,8 @@ export const ParticlesContainer = styled.div`
 export const TextContainer = styled.div`
     display: inline-flex;
     position: absolute;
-    z-index: 4;
-    left: 35%;
+    z-index: 6;
+    left: 40%;
     top: 42%;
     transform: translate(-50%, 0);
 `
@@ -67,4 +67,11 @@ export const Title = styled.div`
 export const InfoContainer = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+    a {
+        color: #fff5d6;
+        margin: 2px 0 5px 25px;
+        cursor: pointer;
+    }
 `
